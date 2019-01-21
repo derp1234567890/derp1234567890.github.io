@@ -10,15 +10,16 @@
 	<h1>Future City Pratice Questions</h1>
 	
 	<h3><a target="_blank" href="https://futurecity.org/sites/default/files/2018-12/Practice%20Questions%202018-19.pdf">Original PDF</a></h3>
-		
+	
 	<div>
-			
+		
 	<h2>Budget</h2>
 	
 	<ol>
 		<li id="t1q1">How do you fund city operations (i.e. utilities, infrastructure, and public services)?</li>
+		<div>
 		<button id="t1q1answer" type="button">Answer</button>
-		<div id="message"></div>
+		</div>
 		<li id="t1q2">How did you approach your city’s budget to accommodate and encourage growth? </li>
 		<button id="t1q2answer" type="button">Answer</button>
 		<li id="t1q3">How does your city support low-income or vulnerable residents?</li>
@@ -128,12 +129,14 @@
 	<script>
 	
 		var t1q1answer = document.getELementById("t1q1answer");
+	
+		var t1q1answer = "Idk"
 		
 		var onButtonClick = function() {
 			document.getElementById("message").textContent += "No answer at the time";
 		};
 		
-		button.addEventListener("click", onButtonClick);
+		t1q1answer.addEventListener("click", onButtonClick);
 		
 	</script>
 		
